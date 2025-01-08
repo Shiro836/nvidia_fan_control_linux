@@ -4,8 +4,8 @@ import os
 import signal
 
 # Fan curve parameters
-temperature_points = [0, 40, 57, 70]
-fan_speed_points = [27, 40, 80, 100]
+temperature_points = [0, 60, 80, 90]
+fan_speed_points =   [0, 0, 30, 90]
 
 # GPU selection for fan curve application
 # Specify which GPUs to control by their indices
@@ -28,7 +28,7 @@ GPU_VALIDATION_SETTINGS = {
 }
 
 # Sleep interval to reduce CPU activity
-sleep_seconds = 5
+sleep_seconds = 2
 
 # Temperature hysteresis needed to lower fan speed
 temperature_hysteresis = 5

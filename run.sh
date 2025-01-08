@@ -1,0 +1,1 @@
+python nvidia_fan_control.py
